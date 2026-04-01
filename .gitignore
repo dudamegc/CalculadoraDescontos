@@ -1,0 +1,21 @@
+# Dependências do Node.js (pasta pesada, gerada pelo npm install)
+node_modules/
+
+# Cobertura de testes (gerada pelo npm run test:coverage)
+coverage/
+
+# Variáveis de ambiente (senhas, tokens — nunca sobe!)
+.env
+.env.local
+
+# Logs
+npm-debug.log*
+*.log
+
+# Sistemas operacionais
+.DS_Store        # Mac
+Thumbs.db        # Windows
+
+# Editores
+.vscode/
+.idea/
